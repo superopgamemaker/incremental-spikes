@@ -1,1 +1,3 @@
-
+function getballs(){
+  player.balls++
+}
