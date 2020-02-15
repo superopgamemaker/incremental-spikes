@@ -1,3 +1,6 @@
+var balls = 0;
+
 function getballs(){
-  player.balls++
+  balls++
+  document.getElementById("display").innerHTML = "You have " + balls + " balls."
 }
